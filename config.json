@@ -1,0 +1,29 @@
+{
+  "token": "",
+  "channels": {
+    "welcome": "966390864811274300",
+    "rules": "966394183009063054",
+    "announcement": "966392931026092134",
+    "team": "967149220727488624",
+    "bye": "966392301750480997",
+    "logs": "966752842532655124"
+  },
+  "roles": {
+    "delegator1": "",
+    "delegator2": "",
+    "delegator3": "",
+    "investor1": "",
+    "investor2": "",
+    "investor3": "",
+    "og": "",
+    "verified": ""
+  },
+  "colors": {
+
+  },
+  "databasePath": "db.db",
+  "bot-managers": [
+    "538458510996930590",
+    "538458510996930590"
+  ]
+}
