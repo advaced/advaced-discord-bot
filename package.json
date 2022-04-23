@@ -1,0 +1,34 @@
+{
+  "name": "advaced-discord-bot",
+  "version": "1.0.0",
+  "description": "The Discord bot of the Advaced community Discord",
+  "type": "module",
+  "requires": true,
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "debug": "nodemon src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advaced/advaced-discord-bot.git"
+  },
+  "author": "diesdasnicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advaced/advaced-discord-bot/issues"
+  },
+  "homepage": "https://github.com/advaced/advaced-discord-bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.31.2",
+    "discord.js": "^13.6.0",
+    "fs": "^0.0.1-security",
+    "sqlite3": "^5.0.5",
+    "winston": "^3.7.2"
+  }
+}
