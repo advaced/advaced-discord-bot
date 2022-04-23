@@ -12,18 +12,18 @@ export class UserManager {
     }
 
     async handleNewUser(user) {
-        if (user.bot) return;
+        // if (user.bot) return;
 
         // Send welcome message
         const welcomeMessage = new MessageEmbed()
-            .setTitle(":VACrainbow: Welcome to the Advaced Community :VACrainbow:")
+            .setTitle('<:VACrainbow:967062402057248788> Welcome to the Advaced Community <:VACrainbow:967062402057248788>')
             .setDescription(`Welcome to the server, ${user}!\n We hope you enjoy your stay and have fun in our community 🌈\n *If you have any questions about Advaced, feel free to ask them in the help section.*`)
             .setColor('#ff00c3')
             .setThumbnail(user.avatarURL())
             .setTimestamp();
 
         // Fetch the welcome channel from the config
-        const welcomeChannel = this.bot.channels.get(this.config['channels']['welcome']);
+        const welcomeChannel = await this.bot.channels.fetch(this.config.channels['welcome']);
 
         // Send the welcome message to the welcome channel
         await welcomeChannel.send({ embeds: [welcomeMessage] });
