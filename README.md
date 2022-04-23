@@ -1,3 +1,13 @@
+```
+              _                         _ 
+     /\      | |                       | |
+    /  \   __| |_   ____ _  ___ ___  __| |
+   / /\ \ / _` \ \ / / _` |/ __/ _ \/ _` |
+  / ____ \ (_| |\ V / (_| | (_|  __/ (_| |
+ /_/    \_\__,_| \_/ \__,_|\___\___|\__,_|
+
+```
+
 # Advaced Community Discord Bot v1.0.0
 The official Advanced Community Discord Bot source code.
 
